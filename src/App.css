@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  border-style: none;
+}
+
+header {
+  z-index: 1;
+  min-height: 70px;
+  background: linear-gradient(90deg, rgba(20,8,0,1) 0%, rgba(0,0,0,1) 39%, rgba(55,22,1,1) 100%);
+}
+
+.nav-list {
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+}
+.nav-list:hover {
+  color: rgb(255, 102, 0);
+}
+.btn-style {
+  width: 7em;
+  height: 2.5em;
+  font-size: medium;
+  border-radius: 0.5em;
+  background-color: rgb(255, 102, 0);
+  color: white;
+  border: none;
+  transition: all 0.5s;
+}
+.btn-style:hover{
+  color: rgb(255, 102, 0);
+  background-color: white;
+
+}
+
+.hero {
+    width: 100%;
+    min-height: 80vh;
+    background: linear-gradient(90deg, rgba(20,8,0,1) 0%, rgba(0,0,0,1) 39%, rgba(55,22,1,1) 100%);
+
+}
+.img-size img{
+  width: 270px;
+}
+
+@media only screen and (min-width: 992px) {
+  .img-size img{
+    width: 500px;
+  }
+  header {
+    position: sticky;
+    top: 0px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .img-size img{
+    width: 500px;
+  }
+}
+
+
+
+.card-section{
+  
+  min-height: 90vh;
+ background: #ffffff;
+}
+.card-mr{
+  margin: 2em  1em;
+}
+.card-bg{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.footer-li{
+  color: rgb(72, 72, 72);
+}
+.footer-li:hover{
+  color: rgb(255, 255, 255);
+
+}
